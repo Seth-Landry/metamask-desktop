@@ -51,6 +51,8 @@ import { IPCRendererStream } from './ipc-renderer-stream';
 import { TabsQuery } from './types/tabs';
 import sleep from './utils/sleep';
 
+console.log('Dummy commit');
+
 // Set protocol for deeplinking
 if (!cfg().isUnitTest) {
   if (process.defaultApp) {
